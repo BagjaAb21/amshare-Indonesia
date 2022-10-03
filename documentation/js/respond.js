@@ -253,6 +253,7 @@
 					fullq = media;
 					rules.push( repUrls( styles ) );
 				}
+				
 				//parse for styles
 				else{
 					fullq = qs[ i ].match( respond.regex.findStyles ) && RegExp.$1;

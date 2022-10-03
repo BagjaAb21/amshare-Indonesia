@@ -3702,7 +3702,7 @@ li {
     position: relative;
     display: block;
     background: #231f29;
-    padding: 30.5px 0;
+    padding: 10.5px 0;
 }
 
 .site-footer-bottom__inner {
@@ -4992,11 +4992,15 @@ li {
     padding-top: 42px;
 }
 
-.welcome-two__right {
-    position: relative;
-    display: block;
-    margin-left: 39px;
+@media (max-width: 991px) {
+    .welcome-two__right {
+        position: relative;
+        display: block;
+        margin-left: 39px;
+        margin-top: 5rem;
+    }
 }
+
 
 .welcome-two__img {
     position: relative;
@@ -5588,12 +5592,12 @@ li {
 }
 
 .brand-three .jarallax-img {
-    object-position: 50% 0% !important;
+    object-position: 8.1% 0% !important;
 }
 
 .brand-three .swiper-slide img {
-    -webkit-transition: 500ms;
-    transition: 500ms;
+    -webkit-transition: 200ms;
+    transition: 350ms;
     opacity: 0.2;
     max-width: 100%;
 }
@@ -5610,6 +5614,7 @@ li {
     display: block;
     margin-top: -180px;
     z-index: 1;
+    
 }
 
 .make-donation-bg {
